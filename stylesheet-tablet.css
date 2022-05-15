@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Averia Serif Libre", cursive;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* GRID COLUMN WIDTH/
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/* NAVIGATION BAR */
+nav {
+  display: block;
+  margin: auto;
+  background: #556270;
+  padding: 3vw 0;
+}
+
+.nav__link--floatright {
+  float: right;
+}
+
+.nav__link {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 2vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Blinker", sans-serif;
+  padding: 0 4vw;
+  color: #9c9fa3;
+}
+
+/* BANNER */
+#banner {
+  display: inline-block;
+  border-bottom: 1px solid #9c9fa3;
+  width: 100%;
+}
+
+.banner__image {
+  display: none;
+}
+
+.banner__header {
+  margin: 4% 4%;
+}
+
+.banner__title {
+  color: black;
+  font-size: 6vw;
+}
+
+.banner__subtitle {
+  color: black;
+  font-size: 2vw;
+}
+
+/* IMAGE GALLERY */
+#gallery.container {
+  text-align: left;
+}
+
+.gallery__box {
+  display: inline-block;
+  margin: 0 4%;
+}
+
+.gallery__image {
+  margin: 6% 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.gallery__title {
+  padding: 4%;
+  font-size: 6vw;
+  margin: 3% 0 0;
+  text-align: start;
+}
+
+.gallery__subtitle {
+  padding: 0 4% 4% 4%;
+  font-size: 2vw;
+  margin: 0%;
+  text-align: start;
+}
+
+/* FOOTER */
+#footer.container {
+  text-align: center;
+}
+
+.footer__box {
+  display: inline-block;
+  margin: 2% 5% 2% 1%;
+  text-align: left;
+}
+
+.footer__link {
+  color: #08b2fe;
+  font-weight: lighter;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+}
+
+.footer__title {
+  font-size: 6vw;
+}
+
+.footer__subtitle {
+  font-size: 2vw;
+  font-weight: lighter;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link {
+  padding: 0;
+  margin: 3% 2%;
+  text-align: left;
+}

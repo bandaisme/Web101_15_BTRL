@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Averia Serif Libre", cursive;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* GRID COLUMN WIDTH/
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* NAVIGATION BAR */
+nav {
+  display: block;
+  background: #556270;
+  text-align: center;
+  padding: 4vw 0;
+}
+
+.nav__link {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 3vw;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Blinker", sans-serif;
+  padding: 4vw;
+  color: #9c9fa3;
+}
+
+/* BANNER */
+#banner {
+  display: inline-block;
+  border-bottom: 1px solid #9c9fa3;
+  width: 100%;
+}
+
+.banner__image {
+  display: none;
+}
+
+.banner__header {
+  margin: 7%;
+}
+
+.banner__title {
+  color: black;
+  font-size: 10vw;
+}
+
+.banner__subtitle {
+  color: black;
+  font-size: 3.5vw;
+}
+
+/* IMAGE GALLERY */
+#gallery.container {
+  text-align: center;
+}
+
+.gallery__box {
+  display: inline-block;
+  margin: auto;
+}
+
+.gallery__image {
+  /* Chỉnh lại column width */
+  width: 90%;
+  margin: 6% 0;
+}
+
+.gallery__title {
+  padding: 0 6%;
+  font-size: 10vw;
+  text-align: start;
+}
+
+.gallery__subtitle {
+  padding: 0 6% 6% 6%;
+  font-size: 3.5vw;
+  text-align: start;
+}
+
+/* FOOTER */
+#footer.container {
+  text-align: center;
+}
+
+.footer__box {
+  display: inline-block;
+  margin: 2% 5% 2% 1%;
+  text-align: left;
+  /* Chỉnh lại column width */
+  width: 90%;
+}
+
+.footer__link {
+  color: black;
+  font-weight: lighter;
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+
+.footer__title {
+  font-size: 9.5vw;
+}
+
+.footer__subtitle {
+  font-size: 3vw;
+  font-weight: lighter;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link {
+  padding: 0;
+  margin: 4%;
+  text-align: left;
+}
