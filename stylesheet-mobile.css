@@ -76,7 +76,7 @@ nav {
 }
 
 .hidden {
-  display: inherit;
+  display: block;
 }
 
 .gallery__title {
